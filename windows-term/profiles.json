@@ -48,6 +48,7 @@
                 "historySize" : 9001,
                 // "icon" : "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "icon" : "%USERPROFILE%\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\icons8-github-48.png",
+                // "icon" : "file:///D:/Documents/DEV/icons8-github-48.png",
                 "name" : "Git",
                 "padding": "20, 10, 20, 20",
                 "snapOnInput" : true,
@@ -66,6 +67,9 @@
         {
             "command" : "newTab",
             "keys" : [ "ctrl+t" ]
+        },        {
+            "command" : "newTab",
+            "keys" : [ "ctrl+n" ]
         },
         {
             "command" : "closeTab",
@@ -107,9 +111,6 @@
         },        {
             "command" : "paste",
             "keys" : [ "ctrl+v" ]
-        },        {
-            "command" : "copy",
-            "keys" : [ "ctrl+c" ]
         }
     ]
 }

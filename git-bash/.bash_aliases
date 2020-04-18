@@ -3,7 +3,7 @@
 ############
 
 # Create new project
-alias vuecreate='winpty vue.cmd create'
+alias vue='winpty vue.cmd create'
 
 
 
