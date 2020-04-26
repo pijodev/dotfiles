@@ -2,33 +2,17 @@
     "extends": [
         "airbnb",
         "prettier",
-        "plugin:node/recommended"
-    ],
+        "plugin:vue/recommended"
+        ],
 
     "plugins": [
-        // "vue",
+        "vue",
         "prettier"
     ],
 
     "parserOptions": {
         "sourceType": "module" // Evite l'erreur "import" est un mot-clé réservé
     },
-
-    "validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
-      ],
-      "autoFixOnSave": true,
 
       "rules": {
         "prettier/prettier": "error",
