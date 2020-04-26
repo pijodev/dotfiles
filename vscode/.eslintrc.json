@@ -1,0 +1,40 @@
+{
+    "extends": [
+        "airbnb",
+        "prettier",
+        "plugin:node/recommended"
+    ],
+
+    "plugins": [
+        // "vue",
+        "prettier"
+    ],
+
+    "parserOptions": {
+        "sourceType": "module" // Evite l'erreur "import" est un mot-clé réservé
+    },
+
+    "validate": [
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        }
+      ],
+      "autoFixOnSave": true,
+
+      "rules": {
+        "prettier/prettier": "error",
+        "no-console": "off",
+        "no-unused-vars": "warn",
+        "func-names": "off",
+        "no-process-exit": "warn"
+    }
+}
