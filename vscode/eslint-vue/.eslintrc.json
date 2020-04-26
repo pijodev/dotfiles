@@ -1,24 +1,17 @@
 {
-    "extends": [
-        "airbnb",
-        "prettier",
-        "plugin:vue/recommended"
-        ],
+  "extends": ["airbnb", "prettier", "plugin:vue/recommended"],
 
-    "plugins": [
-        "vue",
-        "prettier"
-    ],
+  "plugins": ["vue", "prettier"],
 
-    "parserOptions": {
-        "sourceType": "module" // Evite l'erreur "import" est un mot-clé réservé
-    },
+  "parserOptions": {
+    "sourceType": "module"
+  },
 
-      "rules": {
-        "prettier/prettier": "error",
-        "no-console": "off",
-        "no-unused-vars": "warn",
-        "func-names": "off",
-        "no-process-exit": "warn"
-    }
+  "rules": {
+    "prettier/prettier": "error",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "func-names": "off",
+    "no-process-exit": "warn"
+  }
 }
