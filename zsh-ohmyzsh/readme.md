@@ -34,3 +34,21 @@ Configurer ensuite powerlevel10k.
 Conclure avec :
 `sudo apt update`
 
+
+### Fix Oh My ZSH Inseure
+
+Fix Oh My Zsh “Insecure completion-dependent directories detected”.
+ZSH complains about permissions.
+
+https://osxdaily.com/2021/12/29/fix-oh-my-zsh-insecure-completion-dependent-directories-detected/
+
+`chmod 755 /usr/local/share/zsh`
+
+`chmod 755 /usr/local/share/zsh/site-functions`
+
+Default are 775.
+
+
+
+
+
